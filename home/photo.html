@@ -1,0 +1,488 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="css,div,jquery,html,c,seo,web" />
+<meta name="abstract" content="html布局常用标签,xhtml布局心得,jquery技巧,div" />
+<meta name="author" content="Yuejiao Hui" />
+<meta name="generator" content="FrontPage" />
+<meta name="robots" content="all" />
+<title>My album</title>
+<script type="text/javascript" language="javascript" src="javascript/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" language="javascript" src="javascript/thickbox.js"></script>
+<script type="text/javascript" src="javascript/lytebox.js"></script>
+<link rel="stylesheet"  type="text/css" href="stylesheets/reset.css" />
+<link rel="stylesheet"  type="text/css" href="stylesheets/index.css" />
+<link rel="stylesheet"  type="text/css" href="stylesheets/thickbox.css" />
+<link rel="stylesheet" href="stylesheets/lytebox.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.easing.1.3.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
+
+    <script type="text/javascript">
+$(document).ready(function(){
+	$(".footer_logo").click(function(){
+		$("html,body").animate({
+			scrollTop:0
+		},900);
+	});	
+});
+</script>
+</head>
+
+<body>
+<div id="wrapper">
+	<div id="header">
+		<div class="header_l">
+            <h1 style="padding-top:15px;margin-top: 10px; ">Crazy Grace<span>div css jquery Web development</span></h1>
+            <h2>design by Yuejiao &nbsp;&nbsp;&nbsp;&nbsp;(University of Victoria )<span>css html jquery seo php</span></h2>
+            <ul>
+                <li><a href="index.html" title="Homepage" class="li_first">Homepage</a></li>
+                <li><a href="photo.html" title="My album">My album</a></li>
+                <li><a href="college.html" title="My university">My university</a></li>
+                <li><a href="relaxation.html" title="Entertainment">Entertainment</a></li>
+                <li><a href="contact.html" target="_blank" title="Contact me">Contact me</a></li>
+            </ul>
+
+        </div>
+        <!--header_l end-->
+        <div class="header_r">
+        	<div class="join">
+                <ul style="padding-right: 17px";>
+                    <li class="home"></li>
+                    <li><a href="index.html" title="Return">Homepage</a></li>
+                    <li class="website"></li>
+                    <li><a href="mailto:huyuejiao@gmail.com" target="_blank" title="Contact">Contact</a></li>
+                </ul>
+               
+                <div class="search">
+                <form>
+               		 <input type="text" />&nbsp;
+                     <input type="button" value=" Search "  onclick="javascript:alert('Hello, I am Grace！');" />
+                </form>             
+                </div>
+                
+            </div>
+            <!--join end-->
+        </div>
+        <!--header_r end-->
+        <div class="c"></div>
+    </div>
+    <!--header end-->
+    <div id="main">
+    	<div class="main_top"></div>
+        <div class="main_bg" style="background:url(images/main_bg_1014_2.jpg) repeat-y; width:1014px; height:500px;">
+            <div class="content_l" >
+                <h2 >About me</h2>
+
+                <div class="intro" style="background:url(images/4.jpg)">
+                    <table class="tb_intro">
+                        <tr>
+                            <td><a class="thickbox" title="My photo" href="images/pic.jpg"><img src="images/pic.jpg" alt="我的头像！" width="160px;"/></a></td>
+                            <td><br /><br /><br />
+                                Name：Yuejiao&nbsp;Hui<br />
+                                Gender：Female<br />
+                                University：University of Victoria<br />
+                                Major：Software Develoment<br />
+                                Email:huiyuejiao@gmail.com<br /></td>
+                        </tr>
+                        <tr class="background">
+                            <td colspan="2">
+                                <br />
+                                &nbsp;&nbsp;<span style=" color:royalblue;font-family: Arial;font-size: large; font-style:ita">Background</span>：<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div style=" padding-right:10px;padding-left:10px;color:darksalmon;font-family:inherit;font-size:15px;text-align: justify;text-justify: distribute;">Received the B.Sc. and M.Sc. degree in Electronic
+                                Information engineering, Signal and Information processing from Northwestern Polytechnical
+                                University, Xian, China,in 2010 and 2013, respectively. I am currently working toward the
+                                Meng degree at the Department of Electrical and Computer Engineering, University of Victoria,
+                                Victoria, BC, Canada, and plan to graduate at the end of 2015.
+                            </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+            <!--content_l end-->
+            <div class="content">
+            	<h2>My Album</h2>
+                <div class="pic">
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;Life in Canada！
+                   <div id="Mar" class="Mar">
+                    <div id="inMar" class="inMar">
+                        <div id="Mar1" style="float:left;text-align: center; font-family: fantasy">
+                                <table border="0" cellspacing="0" cellpadding="0">
+                                  <tr>
+                                    <td  class="thumbnail">
+                                   	 <a href="images/al1.jpg" rel="lyteshow[vacation]" title="Next">
+                                   		 <img src="images/al1.jpg" alt=""/>
+                                   	 </a>Flower<br />
+                                    </td>
+
+                                     <td  class="thumbnail">
+                                     <a href="images/al2.jpg" rel="lyteshow[vacation]" title="Next">
+                                     	<img src="images/al2.JPG" alt=""/>
+                                     </a>Victoria<br />
+                                     </td>
+
+                                     <td  class="thumbnail">
+                                     <a href="images/al3.JPG" rel="lyteshow[vacation]" title="Next">
+                                     	<img src="images/al3.JPG" alt=""/>
+                                     </a>Banff<br />
+                                     </td>
+
+                                     <td  class="thumbnail">
+                                     <a href="images/al4.JPG" rel="lyteshow[vacation]" title="Next">
+                                     	<img src="images/al4.JPG" alt=""/>
+                                     </a>Banff<br />
+                                     </td>
+
+                                     <td  class="thumbnail">
+                                     <a href="images/al5.JPG" rel="lyteshow[vacation]" title="Next">
+                                     	<img src="images/al5.JPG" alt=""/>
+                                     </a>Squirrel<br />
+                                     </td>
+
+                                     <td  class="thumbnail">
+                                     <a href="images/al6.JPG" rel="lyteshow[vacation]" title="Next">
+                                     	<img src="images/al6.JPG" alt=""/>
+                                     </a>Deer<br />
+                                     </td>
+
+                                     <td  class="thumbnail">
+                                     <a href="images/al7.JPG" rel="lyteshow[vacation]" title="Next">
+                                     	<img src="images/al7.JPG" alt=""/>
+                                     </a>Bnaff<br />
+                                     </td>
+
+                                     <td  class="thumbnail">
+                                     <a href="images/al8.JPG" rel="lyteshow[vacation]" title="Next">
+                                     	<img src="images/al8.JPG" alt=""/>
+                                     </a>Nanimo<br />
+                                     </td>
+                                      <td  class="thumbnail">
+                                          <a href="images/al9.JPG" rel="lyteshow[vacation]" title="Next">
+                                              <img src="images/al9.JPG" alt=""/>
+                                          </a>Sunset<br />
+                                      </td>
+                                      <td  class="thumbnail">
+                                          <a href="images/al10.JPG" rel="lyteshow[vacation]" title="Next">
+                                              <img src="images/al10.JPG" alt=""/>
+                                          </a>Dog<br />
+                                      </td>
+                                      <td  class="thumbnail">
+                                          <a href="images/al11.JPG" rel="lyteshow[vacation]" title="Next">
+                                              <img src="images/al11.JPG" alt=""/>
+                                          </a>Sakura<br />
+                                      </td>
+                                      <td  class="thumbnail">
+                                          <a href="images/al12.JPG" rel="lyteshow[vacation]" title="Next">
+                                              <img src="images/al12.JPG" alt=""/>
+                                          </a>Sidney<br />
+                                      </td>
+
+                                  </tr>
+
+                                </table>
+                        </div>
+                        <div id="Mar2" style="float:left;"> </div>
+       		 	</div>
+    		</div>
+                    <div class="content">
+
+                        <div id="hs_container" class="hs_container">
+                            <div class="hs_area hs_area1">
+                                <img class="hs_visible" src="images/al13.JPG" alt="">
+                                <img src="images/al14.JPG" alt="http://www.5icool.org" >
+                                <img src="images/al15.JPG" alt="">
+                            </div>
+                            <div class="hs_area hs_area2">
+                                <img class="hs_visible" src="images/al13(1).JPG" alt="">
+                                <img src="images/al14(1).JPG" alt="" >
+                                <img src="images/al15(1).JPG" alt="" >
+                            </div>
+                            <div class="hs_area hs_area3">
+                                <img class="hs_visible" src="images/al16.JPG" alt="">
+                                <img src="images/al17.JPG" alt="http://www.5icool.org">
+                                <img src="images/al19(1).JPG" alt="">
+                            </div>
+                            <div class="hs_area hs_area4">
+                                <img class="hs_visible" src="images/al19.JPG" alt="" >
+                                <img src="images/al20.JPG" alt="">
+                                <img src="images/al21.JPG" alt="">
+                            </div>
+                            <div class="hs_area hs_area5">
+                                <img class="hs_visible" src="images/al20(1).JPG" alt="" >
+                                <img src="images/al17(1).JPG" alt="">
+                                <img src="images/al18(1).JPG" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                    <script type="text/javascript">
+                        $(function() {
+                            //custom animations to use
+                            //in the transitions
+                            var animations		= ['right','left','top','bottom','rightFade','leftFade','topFade','bottomFade'];
+                            var total_anim		= animations.length;
+                            //just change this to one of your choice
+                            var easeType		= 'swing';
+                            //the speed of each transition
+                            var animSpeed		= 450;
+                            //caching
+                            var $hs_container	= $('#hs_container');
+                            var $hs_areas		= $hs_container.find('.hs_area');
+
+                            //first preload all images
+                            $hs_images          = $hs_container.find('img');
+                            var total_images    = $hs_images.length;
+                            var cnt             = 0;
+                            $hs_images.each(function(){
+                                var $this = $(this);
+                                $('<img/>').load(function(){
+                                    ++cnt;
+                                    if(cnt == total_images){
+                                        $hs_areas.each(function(){
+                                            var $area 		= $(this);
+                                            //when the mouse enters the area we animate the current
+                                            //image (random animation from array animations),
+                                            //so that the next one gets visible.
+                                            //"over" is a flag indicating if we can animate
+                                            //an area or not (we don't want 2 animations
+                                            //at the same time for each area)
+                                            $area.data('over',true).bind('mouseenter',function(){
+                                                if($area.data('over')){
+                                                    $area.data('over',false);
+                                                    //how many images in this area?
+                                                    var total		= $area.children().length;
+                                                    //visible image
+                                                    var $current 	= $area.find('img:visible');
+                                                    //index of visible image
+                                                    var idx_current = $current.index();
+                                                    //the next image that's going to be displayed.
+                                                    //either the next one, or the first one if the current is the last
+                                                    var $next		= (idx_current == total-1) ? $area.children(':first') : $current.next();
+                                                    //show next one (not yet visible)
+                                                    $next.show();
+                                                    //get a random animation
+                                                    var anim		= animations[Math.floor(Math.random()*total_anim)];
+                                                    switch(anim){
+                                                        //current slides out from the right
+                                                        case 'right':
+                                                            $current.animate({
+                                                                        'left':$current.width()+'px'
+                                                                    },
+                                                                    animSpeed,
+                                                                    easeType,
+                                                                    function(){
+                                                                        $current.hide().css({
+                                                                            'z-index'	: '1',
+                                                                            'left'		: '0px'
+                                                                        });
+                                                                        $next.css('z-index','9999');
+                                                                        $area.data('over',true);
+                                                                    });
+                                                            break;
+                                                        //current slides out from the left
+                                                        case 'left':
+                                                            $current.animate({
+                                                                        'left':-$current.width()+'px'
+                                                                    },
+                                                                    animSpeed,
+                                                                    easeType,
+                                                                    function(){
+                                                                        $current.hide().css({
+                                                                            'z-index'	: '1',
+                                                                            'left'		: '0px'
+                                                                        });
+                                                                        $next.css('z-index','9999');
+                                                                        $area.data('over',true);
+                                                                    });
+                                                            break;
+                                                        //current slides out from the top
+                                                        case 'top':
+                                                            $current.animate({
+                                                                        'top':-$current.height()+'px'
+                                                                    },
+                                                                    animSpeed,
+                                                                    easeType,
+                                                                    function(){
+                                                                        $current.hide().css({
+                                                                            'z-index'	: '1',
+                                                                            'top'		: '0px'
+                                                                        });
+                                                                        $next.css('z-index','9999');
+                                                                        $area.data('over',true);
+                                                                    });
+                                                            break;
+                                                        //current slides out from the bottom
+                                                        case 'bottom':
+                                                            $current.animate({
+                                                                        'top':$current.height()+'px'
+                                                                    },
+                                                                    animSpeed,
+                                                                    easeType,
+                                                                    function(){
+                                                                        $current.hide().css({
+                                                                            'z-index'	: '1',
+                                                                            'top'		: '0px'
+                                                                        });
+                                                                        $next.css('z-index','9999');
+                                                                        $area.data('over',true);
+                                                                    });
+                                                            break;
+                                                        //current slides out from the right	and fades out
+                                                        case 'rightFade':
+                                                            $current.animate({
+                                                                        'left':$current.width()+'px',
+                                                                        'opacity':'0'
+                                                                    },
+                                                                    animSpeed,
+                                                                    easeType,
+                                                                    function(){
+                                                                        $current.hide().css({
+                                                                            'z-index'	: '1',
+                                                                            'left'		: '0px',
+                                                                            'opacity'	: '1'
+                                                                        });
+                                                                        $next.css('z-index','9999');
+                                                                        $area.data('over',true);
+                                                                    });
+                                                            break;
+                                                        //current slides out from the left and fades out
+                                                        case 'leftFade':
+                                                            $current.animate({
+                                                                        'left':-$current.width()+'px','opacity':'0'
+                                                                    },
+                                                                    animSpeed,
+                                                                    easeType,
+                                                                    function(){
+                                                                        $current.hide().css({
+                                                                            'z-index'	: '1',
+                                                                            'left'		: '0px',
+                                                                            'opacity'	: '1'
+                                                                        });
+                                                                        $next.css('z-index','9999');
+                                                                        $area.data('over',true);
+                                                                    });
+                                                            break;
+                                                        //current slides out from the top and fades out
+                                                        case 'topFade':
+                                                            $current.animate({
+                                                                        'top':-$current.height()+'px',
+                                                                        'opacity':'0'
+                                                                    },
+                                                                    animSpeed,
+                                                                    easeType,
+                                                                    function(){
+                                                                        $current.hide().css({
+                                                                            'z-index'	: '1',
+                                                                            'top'		: '0px',
+                                                                            'opacity'	: '1'
+                                                                        });
+                                                                        $next.css('z-index','9999');
+                                                                        $area.data('over',true);
+                                                                    });
+                                                            break;
+                                                        //current slides out from the bottom and fades out
+                                                        case 'bottomFade':
+                                                            $current.animate({
+                                                                        'top':$current.height()+'px',
+                                                                        'opacity':'0'
+                                                                    },
+                                                                    animSpeed,
+                                                                    easeType,
+                                                                    function(){
+                                                                        $current.hide().css({
+                                                                            'z-index'	: '1',
+                                                                            'top'		: '0px',
+                                                                            'opacity'	: '1'
+                                                                        });
+                                                                        $next.css('z-index','9999');
+                                                                        $area.data('over',true);
+                                                                    });
+                                                            break;
+                                                        default:
+                                                            $current.animate({
+                                                                        'left':-$current.width()+'px'
+                                                                    },
+                                                                    animSpeed,
+                                                                    easeType,
+                                                                    function(){
+                                                                        $current.hide().css({
+                                                                            'z-index'	: '1',
+                                                                            'left'		: '0px'
+                                                                        });
+                                                                        $next.css('z-index','9999');
+                                                                        $area.data('over',true);
+                                                                    });
+                                                            break;
+                                                    }
+                                                }
+                                            });
+                                        });
+
+                                        //when clicking the hs_container all areas get slided
+                                        //(just for fun...you would probably want to enter the site
+                                        //or something similar)
+                                        $hs_container.bind('click',function(){
+                                            $hs_areas.trigger('mouseenter');
+                                        });
+                                    }
+                                }).attr('src',$this.attr('src'));
+                            });
+
+
+                        });
+                    </script>
+                </div>
+    <script language="javascript" type="text/javascript">
+        var speed = 60; //数字越小速度越快
+  		var step = 1;//步进
+  		var nImgWidth = 130;
+        var div = document.getElementById("Mar");
+        var div1 = document.getElementById("Mar1");
+        var div2 = document.getElementById("Mar2");
+        div2.innerHTML = div1.innerHTML;
+        function Marquee() 
+		{
+   			if(div.scrollLeft%nImgWidth == 0) 
+			{//每一张图片就停留,如果要连续就去掉这点代码
+  			   div.scrollLeft += step;
+  			   step = 0;
+  			   window.setTimeout("set(2)", 1000);
+   			}
+            if (div2.offsetWidth - div.scrollLeft <= 0)
+                div.scrollLeft -= div1.offsetWidth
+            else 
+			{
+                div.scrollLeft += step;
+            }
+        }
+        var MyMarquee = setInterval(Marquee, speed);
+        div.onmouseover = function() { clearInterval(MyMarquee) };
+        div.onmouseout = function() { MyMarquee = setInterval(Marquee, speed) };
+
+ 		function set(i) 
+		{
+		  i = parseInt(i);
+ 		  step = i;
+ 		}
+    </script>
+
+               
+            </div>	
+            <!--content end-->
+        </div>
+        
+        <div class="main_bot"></div>
+    </div>
+    <!--main end-->
+    <div id="footer">
+        <p>Copyright 2010 XHTML | CSS | jquery<br />Design by Yuejiao(Uvic) for <a href="#" title="www.suniar.com">http://www.suniar.com</a></p>
+        <div class="footer_logo" title="Return to top"></div>
+    </div>
+</div>
+<!--wrapper end-->
+</body>
+</html>
